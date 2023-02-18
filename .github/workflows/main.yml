@@ -42,7 +42,22 @@ variable: ${{ github.VARIABLE_NAME }}
 #     branches:
 #       -main
 
+#workflow ->
+
+#on -> on trigger, on push to codebase, raising a pull request to codebase
+#jobs
+#define a series of steps inside a job to execute the workflow
+
+#github needs to know: how to run, when to run
+#steps is a sequence of tasks that make up a job
+
 name: Github action ofr
 on:
   push:
     branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latset
+    steps:
+      - name: Print Hello world!
+        run: echo "Hello world!"
