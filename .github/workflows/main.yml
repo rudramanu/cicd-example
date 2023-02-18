@@ -53,7 +53,7 @@
 
 name: Github action ofr
 on:
-  - push: [main]
+  push: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
