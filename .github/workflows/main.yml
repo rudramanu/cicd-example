@@ -55,7 +55,7 @@ name: Github action ofr
 on: push
 jobs:
   build:
-    runs-on: ubuntu-latset
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Print Hello world!
