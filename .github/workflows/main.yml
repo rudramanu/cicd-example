@@ -1,1 +1,48 @@
 #workflows
+#YAML -> basically it is series of instructions
+
+#this can be read by the machine to automate tasks
+
+#work on key value pair
+
+title: Rudra Career Impact
+description: A coaching centre situated in Ranchi
+age: 26
+
+#we can write in following data structure:
+#string, arrays, objects
+
+#indentation matters, spaces matters
+
+#arrays==========================================
+tags:
+  - technology
+  - images
+  - creative
+
+#objects=========================================
+address:
+  street: Ratu Road
+  city: Ranchi
+  State: Jharkhand
+
+#github actions
+#env variables
+
+value: ${{ env.VALUE }}
+variable: ${{ github.VARIABLE_NAME }}
+#it configure the files
+
+# name: My application
+# on:
+#   push:
+#     branches:
+#       -main
+#   pull_request:
+#     branches:
+#       -main
+
+name: Github action ofr
+on:
+  push:
+    branches: [main]
