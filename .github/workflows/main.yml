@@ -52,9 +52,7 @@ variable: ${{ github.VARIABLE_NAME }}
 #steps is a sequence of tasks that make up a job
 
 name: Github action ofr
-on:
-  push:
-    branches: [main]
+on: push
 jobs:
   build:
     runs-on: ubuntu-latset
