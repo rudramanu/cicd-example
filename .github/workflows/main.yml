@@ -15,16 +15,16 @@
 #indentation matters, spaces matters
 
 #arrays==========================================
-tags:
-  - technology
-  - images
-  - creative
+# tags:
+#   - technology
+#   - images
+#   - creative
 
 #objects=========================================
-address:
-  street: Ratu Road
-  city: Ranchi
-  State: Jharkhand
+# address:
+#   street: Ratu Road
+#   city: Ranchi
+#   State: Jharkhand
 
 #github actions
 #env variables
