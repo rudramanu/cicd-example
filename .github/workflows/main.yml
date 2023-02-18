@@ -52,7 +52,8 @@
 #steps is a sequence of tasks that make up a job
 
 name: Github action ofr
-on: push
+on:
+  - push: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
