@@ -29,8 +29,8 @@ address:
 #github actions
 #env variables
 
-value: ${{ env.VALUE }}
-variable: ${{ github.VARIABLE_NAME }}
+# value: ${{ env.VALUE }}
+# variable: ${{ github.VARIABLE_NAME }}
 #it configure the files
 
 # name: My application
@@ -58,5 +58,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Print Hello world!
+      - name: Print Hello World
         run: node --version
